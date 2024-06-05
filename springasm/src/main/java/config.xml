@@ -9,18 +9,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
         
-    <bean class="com.springasm.springasm.Student" name="student1">
-        <property name="studentId">
-            <value>22344</value>
-        </property>
-        
-        <property name="studentName">
-            <value>Ananya</value>
-        </property>
-        
-        <property name="studentAddress">
-            <value>Haryana</value>
-        </property>
-    </bean>
-
+    
+<bean class ="com.springasm.springasm.Student" name ="student1" p:studentId="2434" p:studentName="Ram Singh" p:studentAddress="Delhi" />
+<bean class="com.springasm.springasm.Student" name="tudent2" p:studentId="1234" p:studentName="Shyam Singh" p:studentAddress="Lucknow" />
 </beans>
